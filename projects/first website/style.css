@@ -8,11 +8,60 @@ font-size: 50px;
 
 color:orangered
 }
-section{
+.flexiable-container {
+    display: flex;
+    margin:150px;
+}
+.experience-area{
+background-image: url(images/half.png);
+background-repeat: no-repeat;
+baskground-position:left;
+
+}
+ 
+.half-width{
+width:50%;
+padding:5%;
+
+}
+.half-width img{
+    width:80%;
+    
+
+}
+.link-button{
+
+    text-decoration: none;
+    background-image:linear-gradient(orange, tomato) ; 
+    padding: 10px 40px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+
+}
+.top-banner{
+background-image: url();
+background-repeat:no-repeat;
+}
+.dream-big{
+    background-image: url(images/half.png);
+    background-repeat: no-repeat;
+    background-position:right ;}
+    .experiance-item{
+width:40% ;
+margin-left:5%;
+margin-right:5%;
+padding: 20px;
+border-radius: 5px;
+border:left 10 px solid ;
+box-shadow:10px 10px 40px gray ;
+
+    }
+    footer{
+
+
+    text-align: center;
+    }
 
     
-}
-.half-width{
-width:50%
-
-}
+    
